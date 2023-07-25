@@ -21,4 +21,4 @@ jobs:
     - uses:  Cutwell/jekyll-build-action@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        target_branch: 'gh-pages'
+        target_branch: 'master'
